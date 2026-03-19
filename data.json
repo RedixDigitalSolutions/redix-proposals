@@ -1,147 +1,147 @@
 {
-    "company": {
-        "name": "Redix Digital Solutions",
-        "tagline": "Transformez votre présence digitale",
-        "description": "Nous sommes une agence digitale basée en Tunisie, spécialisée dans le marketing digital, la production vidéo et la gestion des réseaux sociaux. Chez Redix, nous combinons créativité, technologie et stratégie pour offrir des expériences digitales exceptionnelles à nos clients dans le secteur de la restauration rapide.",
-        "website": "https://redixdigitalsolutions.com/",
-        "portfolio": "https://redixdigitalsolutions.com/#portfolio",
-        "whatsapp": "https://wa.me/21692861655",
-        "phone": "+216 92 861 655",
-        "email": "contact@redixdigitalsolutions.com",
-        "location": "Smart Technopark Manouba, Tunisie",
-        "logo": "https://redixdigitalsolutions.com/assets/logos/Redix1.png"
+  "company": {
+    "name": "Redix Digital Solutions",
+    "tagline": "Transformez votre présence digitale",
+    "description": "Nous sommes une agence digitale basée en Tunisie, spécialisée dans le marketing digital, la production vidéo et la gestion des réseaux sociaux. Chez Redix, nous combinons créativité, technologie et stratégie pour offrir des expériences digitales exceptionnelles à nos clients dans le secteur de la restauration rapide.",
+    "website": "https://redixdigitalsolutions.com/",
+    "portfolio": "https://redixdigitalsolutions.com/#portfolio",
+    "whatsapp": "https://wa.me/21692861655",
+    "phone": "+216 27 941 416",
+    "email": "contact@redixdigitalsolutions.com",
+    "location": "Smart Technopark Manouba, Tunisie",
+    "logo": "https://redixdigitalsolutions.com/assets/logos/Redix1.png"
+  },
+  "services": [
+    {
+      "icon": "🎬",
+      "title": "Production Vidéo Professionnelle",
+      "description": "Shootings professionnels sur site pour capturer l'essence de votre restaurant — plats savoureux, ambiance unique et moments authentiques."
     },
-    "services": [
-        {
-            "icon": "🎬",
-            "title": "Production Vidéo Professionnelle",
-            "description": "Shootings professionnels sur site pour capturer l'essence de votre restaurant — plats savoureux, ambiance unique et moments authentiques."
-        },
-        {
-            "icon": "✂️",
-            "title": "Montage & Optimisation",
-            "description": "Montage créatif et optimisation de vos vidéos pour maximiser l'engagement sur chaque plateforme sociale."
-        },
-        {
-            "icon": "📱",
-            "title": "Gestion des Réseaux Sociaux",
-            "description": "Gestion complète de vos comptes Instagram, Facebook et TikTok avec des publications régulières et des descriptions engageantes."
-        },
-        {
-            "icon": "📢",
-            "title": "Publicité & Sponsoring",
-            "description": "Campagnes publicitaires ciblées pour atteindre votre audience locale et booster la visibilité de votre restaurant."
-        },
-        {
-            "icon": "📝",
-            "title": "Création de Contenu",
-            "description": "Rédaction de posts et descriptions optimisés pour attirer et fidéliser votre clientèle avec un contenu de qualité."
-        },
-        {
-            "icon": "📊",
-            "title": "Stratégie Digitale",
-            "description": "Une stratégie digitale sur mesure axée sur des résultats mesurables pour développer votre activité de restauration rapide."
-        }
-    ],
-    "platforms": [
-        {
-            "name": "Instagram",
-            "icon": "instagram",
-            "color": "#E4405F",
-            "description": "Reels, Stories et posts visuels pour mettre en valeur vos plats et votre ambiance."
-        },
-        {
-            "name": "Facebook",
-            "icon": "facebook",
-            "color": "#1877F2",
-            "description": "Publications, événements et publicités ciblées pour toucher votre communauté locale."
-        },
-        {
-            "name": "TikTok",
-            "icon": "tiktok",
-            "color": "#000000",
-            "description": "Vidéos courtes et virales pour capter l'attention de la génération Z et des foodies."
-        }
-    ],
-    "packs": [
-        {
-            "id": "impulsion",
-            "name": "Pack Impulsion",
-            "badge": "Starter",
-            "price": "640",
-            "currency": "DT",
-            "period": "mois",
-            "adsBudget": "20$",
-            "popular": false,
-            "features": [
-                "1 séance shooting professionnelle",
-                "4 vidéos avec montage et optimisation",
-                "4 posts avec descriptions",
-                "Gestion de 3 comptes (Instagram, Facebook, TikTok)",
-                "Sponsoring pour 4 vidéos",
-                "Budget Ads : 20$"
-            ]
-        },
-        {
-            "id": "impact",
-            "name": "Pack Impact",
-            "badge": "Populaire",
-            "price": "870",
-            "currency": "DT",
-            "period": "mois",
-            "adsBudget": "40$",
-            "popular": true,
-            "features": [
-                "1 séance shooting professionnelle",
-                "8 vidéos avec montage et optimisation",
-                "4 posts avec descriptions",
-                "Gestion de 3 comptes (Instagram, Facebook, TikTok)",
-                "Sponsoring pour 8 vidéos",
-                "Budget Ads : 40$"
-            ]
-        },
-        {
-            "id": "elite",
-            "name": "Pack Elite",
-            "badge": "Premium",
-            "price": "1690",
-            "currency": "DT",
-            "period": "mois",
-            "adsBudget": "60$",
-            "popular": false,
-            "features": [
-                "2 séances shooting professionnelles",
-                "16 vidéos avec montage et optimisation",
-                "8 posts avec descriptions",
-                "Gestion de 3 comptes (Instagram, Facebook, TikTok)",
-                "Sponsoring pour 16 vidéos",
-                "Budget Ads : 60$"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "value": "100+",
-            "label": "Projets réalisés"
-        },
-        {
-            "value": "50+",
-            "label": "Clients satisfaits"
-        },
-        {
-            "value": "3+",
-            "label": "Années d'expérience"
-        },
-        {
-            "value": "24/7",
-            "label": "Support disponible"
-        }
-    ],
-    "cta": {
-        "title": "Prêt à propulser votre restaurant ?",
-        "subtitle": "Contactez-nous dès aujourd'hui pour une consultation gratuite et découvrez comment nous pouvons transformer votre présence digitale.",
-        "whatsappText": "Bonjour l'équipe Redix ! Je suis intéressé(e) par vos services de marketing digital pour mon restaurant. J'aimerais planifier une consultation gratuite.",
-        "buttonText": "Commencer maintenant",
-        "phoneText": "Appelez-nous"
+    {
+      "icon": "✂️",
+      "title": "Montage & Optimisation",
+      "description": "Montage créatif et optimisation de vos vidéos pour maximiser l'engagement sur chaque plateforme sociale."
+    },
+    {
+      "icon": "📱",
+      "title": "Gestion des Réseaux Sociaux",
+      "description": "Gestion complète de vos comptes Instagram, Facebook et TikTok avec des publications régulières et des descriptions engageantes."
+    },
+    {
+      "icon": "📢",
+      "title": "Publicité & Sponsoring",
+      "description": "Campagnes publicitaires ciblées pour atteindre votre audience locale et booster la visibilité de votre restaurant."
+    },
+    {
+      "icon": "📝",
+      "title": "Création de Contenu",
+      "description": "Rédaction de posts et descriptions optimisés pour attirer et fidéliser votre clientèle avec un contenu de qualité."
+    },
+    {
+      "icon": "📊",
+      "title": "Stratégie Digitale",
+      "description": "Une stratégie digitale sur mesure axée sur des résultats mesurables pour développer votre activité de restauration rapide."
     }
+  ],
+  "platforms": [
+    {
+      "name": "Instagram",
+      "icon": "instagram",
+      "color": "#E4405F",
+      "description": "Reels, Stories et posts visuels pour mettre en valeur vos plats et votre ambiance."
+    },
+    {
+      "name": "Facebook",
+      "icon": "facebook",
+      "color": "#1877F2",
+      "description": "Publications, événements et publicités ciblées pour toucher votre communauté locale."
+    },
+    {
+      "name": "TikTok",
+      "icon": "tiktok",
+      "color": "#000000",
+      "description": "Vidéos courtes et virales pour capter l'attention de la génération Z et des foodies."
+    }
+  ],
+  "packs": [
+    {
+      "id": "impulsion",
+      "name": "Pack Impulsion",
+      "badge": "Starter",
+      "price": "640",
+      "currency": "DT",
+      "period": "mois",
+      "adsBudget": "20$",
+      "popular": false,
+      "features": [
+        "1 séance shooting professionnelle",
+        "4 vidéos avec montage et optimisation",
+        "4 posts avec descriptions",
+        "Gestion de 3 comptes (Instagram, Facebook, TikTok)",
+        "Sponsoring pour 4 vidéos",
+        "Budget Ads : 20$"
+      ]
+    },
+    {
+      "id": "impact",
+      "name": "Pack Impact",
+      "badge": "Populaire",
+      "price": "870",
+      "currency": "DT",
+      "period": "mois",
+      "adsBudget": "40$",
+      "popular": true,
+      "features": [
+        "1 séance shooting professionnelle",
+        "8 vidéos avec montage et optimisation",
+        "4 posts avec descriptions",
+        "Gestion de 3 comptes (Instagram, Facebook, TikTok)",
+        "Sponsoring pour 8 vidéos",
+        "Budget Ads : 40$"
+      ]
+    },
+    {
+      "id": "elite",
+      "name": "Pack Elite",
+      "badge": "Premium",
+      "price": "1690",
+      "currency": "DT",
+      "period": "mois",
+      "adsBudget": "60$",
+      "popular": false,
+      "features": [
+        "2 séances shooting professionnelles",
+        "16 vidéos avec montage et optimisation",
+        "8 posts avec descriptions",
+        "Gestion de 3 comptes (Instagram, Facebook, TikTok)",
+        "Sponsoring pour 16 vidéos",
+        "Budget Ads : 60$"
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "value": "100+",
+      "label": "Projets réalisés"
+    },
+    {
+      "value": "50+",
+      "label": "Clients satisfaits"
+    },
+    {
+      "value": "3+",
+      "label": "Années d'expérience"
+    },
+    {
+      "value": "24/7",
+      "label": "Support disponible"
+    }
+  ],
+  "cta": {
+    "title": "Prêt à propulser votre restaurant ?",
+    "subtitle": "Contactez-nous dès aujourd'hui pour une consultation gratuite et découvrez comment nous pouvons transformer votre présence digitale.",
+    "whatsappText": "Bonjour l'équipe Redix ! Je suis intéressé(e) par vos services de marketing digital pour mon restaurant. J'aimerais planifier une consultation gratuite.",
+    "buttonText": "Commencer maintenant",
+    "phoneText": "Appelez-nous"
+  }
 }

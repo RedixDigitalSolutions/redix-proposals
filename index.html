@@ -1,242 +1,339 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redix Digital Solutions — Marketing Digital pour Fast Foods</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="https://redixdigitalsolutions.com/assets/logos/Redix1.png" type="image/png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="https://redixdigitalsolutions.com/assets/logos/Redix1.png"
+      type="image/png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
+  <body>
     <!-- ========== NAVBAR ========== -->
     <nav class="navbar" id="navbar">
-        <div class="container nav-container">
-            <a href="#" class="nav-logo">
-                <img src="https://redixdigitalsolutions.com/assets/logos/Redix1.png" alt="Redix Digital Solutions"
-                    class="logo-img">
-            </a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#platforms">Plateformes</a></li>
-                <li><a href="#packs">Nos Packs</a></li>
-                <li><a href="#cta" class="nav-cta">Contactez-nous</a></li>
-            </ul>
-            <button class="hamburger" id="hamburger" aria-label="Menu">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
+      <div class="container nav-container">
+        <a href="#" class="nav-logo">
+          <img
+            src="https://redixdigitalsolutions.com/assets/logos/Redix1.png"
+            alt="Redix Digital Solutions"
+            class="logo-img"
+          />
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#platforms">Plateformes</a></li>
+          <li><a href="#packs">Nos Packs</a></li>
+          <li><a href="#cta" class="nav-cta">Contactez-nous</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </nav>
 
     <!-- ========== HERO SECTION ========== -->
     <header class="hero" id="hero">
-        <div class="hero-bg-shapes">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-            <div class="shape shape-3"></div>
+      <div class="hero-bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+      <div class="container hero-content">
+        <div class="hero-badge">🍔 Marketing Digital pour Fast Foods</div>
+        <h1 class="hero-title">
+          Transformez la <span class="gradient-text">présence digitale</span> de
+          votre restaurant
+        </h1>
+        <p class="hero-subtitle">
+          Redix Digital Solutions est une agence digitale tunisienne spécialisée
+          dans la production vidéo, la gestion des réseaux sociaux et la
+          publicité en ligne . Nous combinons
+          créativité, technologie et stratégie pour booster votre visibilité et
+          attirer plus de clients.
+        </p>
+        <div class="hero-buttons">
+          <a href="#packs" class="btn btn-primary">Découvrir nos packs</a>
+          <a
+            href="https://redixdigitalsolutions.com/"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-outline"
+          >
+            <span class="btn-icon">🌐</span> Visiter notre site
+          </a>
         </div>
-        <div class="container hero-content">
-            <div class="hero-badge">🍔 Marketing Digital pour Fast Foods</div>
-            <h1 class="hero-title">
-                Transformez la <span class="gradient-text">présence digitale</span> de votre restaurant
-            </h1>
-            <p class="hero-subtitle">
-                Redix Digital Solutions est une agence digitale tunisienne spécialisée dans la production vidéo, la
-                gestion des réseaux sociaux et la publicité en ligne pour les restaurants et fast foods. Nous combinons
-                créativité, technologie et stratégie pour booster votre visibilité et attirer plus de clients.
-            </p>
-            <div class="hero-buttons">
-                <a href="#packs" class="btn btn-primary">Découvrir nos packs</a>
-                <a href="https://redixdigitalsolutions.com/" target="_blank" rel="noopener" class="btn btn-outline">
-                    <span class="btn-icon">🌐</span> Visiter notre site
-                </a>
-            </div>
-            <div class="hero-stats" id="heroStats">
-                <!-- Populated by JS -->
-            </div>
+        <div class="hero-stats" id="heroStats">
+          <!-- Populated by JS -->
         </div>
+      </div>
     </header>
 
     <!-- ========== ABOUT / INTRO ========== -->
     <section class="section about" id="about">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">Qui sommes-nous</span>
-                <h2 class="section-title">Pourquoi choisir <span class="gradient-text">Redix</span> ?</h2>
-                <p class="section-subtitle">
-                    Nous offrons des solutions digitales complètes dédiées au secteur de la restauration rapide. De la
-                    production vidéo au sponsoring, nous gérons tout pour que vous puissiez vous concentrer sur ce que
-                    vous faites de mieux : préparer de délicieux repas.
-                </p>
-            </div>
-            <div class="about-grid">
-                <div class="about-card">
-                    <div class="about-icon">⚡</div>
-                    <h3>Livraison rapide</h3>
-                    <p>Des projets de haute qualité livrés dans les délais, sans compromis sur la qualité.</p>
-                </div>
-                <div class="about-card">
-                    <div class="about-icon">💡</div>
-                    <h3>Solutions créatives</h3>
-                    <p>Notre équipe apporte des idées innovantes et des technologies à la pointe à chaque projet.</p>
-                </div>
-                <div class="about-card">
-                    <div class="about-icon">📈</div>
-                    <h3>Axé résultats</h3>
-                    <p>Nous nous concentrons sur des résultats mesurables qui impactent directement la croissance de
-                        votre entreprise.</p>
-                </div>
-                <div class="about-card">
-                    <div class="about-icon">🛡️</div>
-                    <h3>Support dédié</h3>
-                    <p>Support et maintenance 24/7 pour garantir que votre présence digitale fonctionne parfaitement.
-                    </p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Qui sommes-nous</span>
+          <h2 class="section-title">
+            Pourquoi choisir <span class="gradient-text">Redix</span> ?
+          </h2>
+          <p class="section-subtitle">
+            Nous offrons des solutions digitales complètes dédiées au secteur de
+            la restauration rapide. De la production vidéo au sponsoring, nous
+            gérons tout pour que vous puissiez vous concentrer sur ce que vous
+            faites de mieux : préparer de délicieux repas.
+          </p>
         </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon">⚡</div>
+            <h3>Livraison rapide</h3>
+            <p>
+              Des projets de haute qualité livrés dans les délais, sans
+              compromis sur la qualité.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">💡</div>
+            <h3>Solutions créatives</h3>
+            <p>
+              Notre équipe apporte des idées innovantes et des technologies à la
+              pointe à chaque projet.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">📈</div>
+            <h3>Axé résultats</h3>
+            <p>
+              Nous nous concentrons sur des résultats mesurables qui impactent
+              directement la croissance de votre entreprise.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">🛡️</div>
+            <h3>Support dédié</h3>
+            <p>
+              Support et maintenance 24/7 pour garantir que votre présence
+              digitale fonctionne parfaitement.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ========== SERVICES ========== -->
     <section class="section services" id="services">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">Nos Services</span>
-                <h2 class="section-title">Ce que nous offrons pour votre <span class="gradient-text">fast food</span>
-                </h2>
-                <p class="section-subtitle">
-                    Des services digitaux sur mesure pour faire rayonner votre restaurant sur les réseaux sociaux.
-                </p>
-            </div>
-            <div class="services-grid" id="servicesGrid">
-                <!-- Populated by JS -->
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Nos Services</span>
+          <h2 class="section-title">
+            Ce que nous offrons pour votre
+            <span class="gradient-text">fast food</span>
+          </h2>
+          <p class="section-subtitle">
+            Des services digitaux sur mesure pour faire rayonner votre
+            restaurant sur les réseaux sociaux.
+          </p>
         </div>
+        <div class="services-grid" id="servicesGrid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
     </section>
 
     <!-- ========== PLATFORMS ========== -->
     <section class="section platforms" id="platforms">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">Plateformes</span>
-                <h2 class="section-title">Les réseaux sociaux sur lesquels <span class="gradient-text">nous
-                        travaillons</span></h2>
-                <p class="section-subtitle">
-                    Nous gérons votre présence sur les plateformes les plus influentes pour toucher votre audience
-                    cible.
-                </p>
-            </div>
-            <div class="platforms-grid" id="platformsGrid">
-                <!-- Populated by JS -->
-            </div>
-            <div class="platforms-cta">
-                <a href="https://redixdigitalsolutions.com/#portfolio" target="_blank" rel="noopener"
-                    class="btn btn-primary btn-large">
-                    <span class="btn-icon">🎥</span> Voir nos réalisations précédentes
-                </a>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Plateformes</span>
+          <h2 class="section-title">
+            Les réseaux sociaux sur lesquels
+            <span class="gradient-text">nous travaillons</span>
+          </h2>
+          <p class="section-subtitle">
+            Nous gérons votre présence sur les plateformes les plus influentes
+            pour toucher votre audience cible.
+          </p>
         </div>
+        <div class="platforms-grid" id="platformsGrid">
+          <!-- Populated by JS -->
+        </div>
+        <div class="platforms-cta">
+          <a
+            href="https://redixdigitalsolutions.com/#portfolio"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-primary btn-large"
+          >
+            <span class="btn-icon">🎥</span> Voir nos réalisations précédentes
+          </a>
+        </div>
+      </div>
     </section>
 
     <!-- ========== PRICING PACKS ========== -->
     <section class="section packs" id="packs">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">Nos Packs</span>
-                <h2 class="section-title">Choisissez le pack qui <span class="gradient-text">vous convient</span></h2>
-                <p class="section-subtitle">
-                    Des formules adaptées à chaque budget et chaque ambition. Tous nos packs incluent la gestion
-                    complète de vos réseaux sociaux.
-                </p>
-            </div>
-            <div class="packs-grid" id="packsGrid">
-                <!-- Populated by JS -->
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Nos Packs</span>
+          <h2 class="section-title">
+            Choisissez le pack qui
+            <span class="gradient-text">vous convient</span>
+          </h2>
+          <p class="section-subtitle">
+            Des formules adaptées à chaque budget et chaque ambition. Tous nos
+            packs incluent la gestion complète de vos réseaux sociaux.
+          </p>
         </div>
+        <div class="packs-grid" id="packsGrid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
     </section>
 
     <!-- ========== CALL TO ACTION ========== -->
     <section class="section cta-section" id="cta">
-        <div class="cta-bg-shapes">
-            <div class="cta-shape cta-shape-1"></div>
-            <div class="cta-shape cta-shape-2"></div>
+      <div class="cta-bg-shapes">
+        <div class="cta-shape cta-shape-1"></div>
+        <div class="cta-shape cta-shape-2"></div>
+      </div>
+      <div class="container cta-content">
+        <h2 class="cta-title" id="ctaTitle"></h2>
+        <p class="cta-subtitle" id="ctaSubtitle"></p>
+        <div class="cta-buttons">
+          <a
+            id="ctaWhatsapp"
+            href="#"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-cta-primary"
+          >
+            <svg
+              class="btn-svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              width="22"
+              height="22"
+            >
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+              />
+            </svg>
+            Écrire sur WhatsApp
+          </a>
+          <a href="tel:+21627941416" class="btn btn-cta-outline">
+            <svg
+              class="btn-svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              width="20"
+              height="20"
+            >
+              <path
+                d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"
+              />
+            </svg>
+            Appelez-nous
+          </a>
+          <a
+            href="mailto:contact@redixdigitalsolutions.com"
+            class="btn btn-cta-outline"
+          >
+            <svg
+              class="btn-svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              width="20"
+              height="20"
+            >
+              <path
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+              />
+            </svg>
+            Envoyer un email
+          </a>
         </div>
-        <div class="container cta-content">
-            <h2 class="cta-title" id="ctaTitle"></h2>
-            <p class="cta-subtitle" id="ctaSubtitle"></p>
-            <div class="cta-buttons">
-                <a id="ctaWhatsapp" href="#" target="_blank" rel="noopener" class="btn btn-cta-primary">
-                    <svg class="btn-svg" viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
-                        <path
-                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-                    </svg>
-                    Écrire sur WhatsApp
-                </a>
-                <a href="tel:+21692861655" class="btn btn-cta-outline">
-                    <svg class="btn-svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
-                        <path
-                            d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
-                    </svg>
-                    Appelez-nous
-                </a>
-                <a href="mailto:contact@redixdigitalsolutions.com" class="btn btn-cta-outline">
-                    <svg class="btn-svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
-                        <path
-                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
-                    </svg>
-                    Envoyer un email
-                </a>
-            </div>
-        </div>
+      </div>
     </section>
 
     <!-- ========== FOOTER ========== -->
     <footer class="footer">
-        <div class="container footer-content">
-            <div class="footer-brand">
-                <img src="https://redixdigitalsolutions.com/assets/logos/Redix1.png" alt="Redix" class="footer-logo">
-                <p>Transformons ensemble votre présence digitale.</p>
-            </div>
-            <div class="footer-links">
-                <a href="https://www.instagram.com/redixdigitalsolutions/" target="_blank" rel="noopener"
-                    aria-label="Instagram">
-                    <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-                        <path
-                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
-                    </svg>
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=61560535962106" target="_blank" rel="noopener"
-                    aria-label="Facebook">
-                    <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-                        <path
-                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                    </svg>
-                </a>
-                <a href="https://wa.me/21692861655" target="_blank" rel="noopener" aria-label="WhatsApp">
-                    <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-                        <path
-                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-                    </svg>
-                </a>
-                <a href="https://www.linkedin.com/company/redix-digital-solutions/" target="_blank" rel="noopener"
-                    aria-label="LinkedIn">
-                    <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-                        <path
-                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                    </svg>
-                </a>
-            </div>
-            <p class="footer-copy">© 2026 Redix Digital Solutions. Tous droits réservés. Fait avec ❤️ en Tunisie</p>
+      <div class="container footer-content">
+        <div class="footer-brand">
+          <img
+            src="https://redixdigitalsolutions.com/assets/logos/Redix1.png"
+            alt="Redix"
+            class="footer-logo"
+          />
+          <p>Transformons ensemble votre présence digitale.</p>
         </div>
+        <div class="footer-links">
+          <a
+            href="https://www.instagram.com/redixdigitalsolutions/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Instagram"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61560535962106"
+            target="_blank"
+            rel="noopener"
+            aria-label="Facebook"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+              <path
+                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://wa.me/21692861655"
+            target="_blank"
+            rel="noopener"
+            aria-label="WhatsApp"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/redix-digital-solutions/"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+              />
+            </svg>
+          </a>
+        </div>
+        <p class="footer-copy">
+          © 2026 Redix Digital Solutions. Tous droits réservés. Fait avec ❤️ en
+          Tunisie
+        </p>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
